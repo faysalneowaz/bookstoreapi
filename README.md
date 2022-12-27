@@ -68,10 +68,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-php artisan make:model BookAuthor -a
-php artisan make:resource BooksResource
-php artisan migrate --seed
-php artisan migrate 
-php artisan make:migration create_book_author_table
-php artisan make:model Book -a  
-php artisan make:model -a -r  Author
+php artisan make:model BookAuthor -a \n
+php artisan make:resource BooksResource \n
+php artisan migrate --seed \n
+php artisan migrate \n
+php artisan make:migration create_book_author_table \n
+php artisan make:model Book -a  \n
+php artisan make:model -a -r  Author \n
